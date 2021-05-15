@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include "mylib.h"
+#include <stdlib.h>
 
 int main(){
-    char mychar = 'X';
-    printf("%c\n", toLowerCase(&mychar));
+    int *q = staticInt();
+    *q = 12;
+    printf("%d\n", *q);
+    free(q);
 }

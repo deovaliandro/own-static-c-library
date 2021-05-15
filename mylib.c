@@ -5,6 +5,7 @@
 */
 
 #include <stdio.h>
+#include <stdlib.h>
 #include "mylib.h"
 
 void swap(int *p, int *q){
@@ -18,4 +19,10 @@ void swap(int *p, int *q){
 
 int toLowerCase(char *c){
     return (*c >= 'A' && *c < 'Z') ? *c + 'a' - 'A' : *c;
+}
+
+int* staticInt(){
+    int *p;
+    p = (int*) malloc(sizeof(int)); 
+    return p;
 }
