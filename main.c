@@ -1,3 +1,5 @@
+// simple implementation of static int
+
 #include <stdio.h>
 #include "mylib.h"
 #include <stdlib.h>
