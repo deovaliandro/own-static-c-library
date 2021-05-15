@@ -1,6 +1,7 @@
 /*
     Pustaka kecil yang ditulis untuk tugas kecil
     Deo Valiandro. M
+    git by gpg
 */
 
 #include <stdio.h>
