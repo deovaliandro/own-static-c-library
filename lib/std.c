@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include "std.h"
 
-void swap(int *p, int *q){
+void swapInt(int *p, int *q){
     int temp;
     temp = *p;
     *p = *q;
